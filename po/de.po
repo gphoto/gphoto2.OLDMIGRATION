@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2\n"
-"POT-Creation-Date: 2002-11-28 04:02-0800\n"
+"POT-Creation-Date: 2002-12-01 21:24+0100\n"
 "PO-Revision-Date: 2002-11-28 04:14-0800\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
@@ -809,7 +809,8 @@ msgstr ""
 #: gphoto2/main.c:592
 #, c-format
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
-msgstr "Der von der Kamera gelieferte Filename (»%s«) enthält keine Dateiendung."
+msgstr ""
+"Der von der Kamera gelieferte Filename (»%s«) enthält keine Dateiendung."
 
 #: gphoto2/main.c:668
 #, c-format

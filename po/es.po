@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2\n"
-"POT-Creation-Date: 2002-11-20 19:11+0100\n"
+"POT-Creation-Date: 2002-12-01 21:24+0100\n"
 "PO-Revision-Date: 2002-06-18 22:37-0300\n"
 "Last-Translator: Fabian Mandelbaum <fabman@mandrakesoft.com>\n"
 "Language-Team: Castellano <traduc@traduc.org>\n"
@@ -14,9 +14,9 @@ msgstr ""
 "X-Generator: KBabel 0.9.5\n"
 
 #: gphoto2/actions.c:117
-#, fuzzy, c-format
+#, c-format
 msgid "Number of files in folder '%s': %i\n"
-msgstr "Cantidad de archivos en la carpeta %s: %i\n"
+msgstr "Cantidad de archivos en la carpeta '%s': %i\n"
 
 #: gphoto2/actions.c:136
 #, c-format
@@ -316,23 +316,16 @@ msgstr ""
 "'usb:'.)"
 
 #: gphoto2/actions.c:680
-#, fuzzy
 msgid "About the camera driver:"
-msgstr "Acerca del controlador de la cámara"
+msgstr "Acerca del controlador de la cámara:"
 
 #: gphoto2/actions.c:694
-#, fuzzy
 msgid "Camera summary:"
-msgstr ""
-"Resumen de la cámara:\n"
-"%s\n"
+msgstr "Resumen de la cámara:"
 
 #: gphoto2/actions.c:708
-#, fuzzy
 msgid "Camera manual:"
-msgstr ""
-"Manual de la cámara:\n"
-"%s\n"
+msgstr "Manual de la cámara:"
 
 #: gphoto2/actions.c:724
 msgid "You can only specify speeds for serial ports."
@@ -359,7 +352,6 @@ msgid "OS/2 port by Bart van Leeuwen\n"
 msgstr "Portado a OS/2 por Bart van Leeuwen\n"
 
 #: gphoto2/actions.c:902
-#, fuzzy
 msgid ""
 "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE "
 "MAILING LIST:"
@@ -396,6 +388,18 @@ msgstr ""
 "Número de archivo incorrecto. Usted especificó %i, pero sólo hay %i archivos "
 "disponibles en '%s'. Por favor, primero obtenga un número de archivo válido "
 "de un listado de archivos."
+
+#: gphoto2/gp-params.c:64
+msgid "*** Error ***              \n"
+msgstr "*** Error ***              \n"
+
+#: gphoto2/gp-params.c:231
+msgid "Press any key to continue.\n"
+msgstr ""
+
+#: gphoto2/gp-params.c:248
+msgid "Not enough memory."
+msgstr ""
 
 #: gphoto2/gphoto2-cmd-capture.c:218
 msgid "Operation cancelled"
@@ -652,12 +656,10 @@ msgid "February"
 msgstr ""
 
 #: gphoto2/main.c:490
-#, fuzzy
 msgid "Mar"
 msgstr "Macro"
 
 #: gphoto2/main.c:490
-#, fuzzy
 msgid "March"
 msgstr "Macro"
 
@@ -854,21 +856,20 @@ msgstr ""
 "Cancelando...\n"
 
 #: gphoto2/main.c:1305
-#, fuzzy
 msgid "gphoto2 has been compiled without support for CDK."
-msgstr "gphoto2 ha sido compilado sin soporte para EXIF."
+msgstr "gphoto2 ha sido compilado sin soporte para CDK."
 
 #: gphoto2/main.c:1418
 msgid "Operation cancelled.\n"
 msgstr "Operación cancelada.\n"
 
 #: gphoto2/main.c:1422
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "*** Error (%i: '%s') ***       \n"
 "\n"
 msgstr ""
-"*** Error ('%s') ***        \n"
+"*** Error (%i: '%s') ***       \n"
 "\n"
 
 #: gphoto2/main.c:1426
@@ -901,12 +902,10 @@ msgid "speed"
 msgstr ""
 
 #: gphoto2/main.c:1497
-#, fuzzy
 msgid "model"
-msgstr "Modelo"
+msgstr "modelo"
 
 #: gphoto2/main.c:1499
-#, fuzzy
 msgid "filename"
 msgstr "fina"
 
@@ -919,7 +918,6 @@ msgid "folder"
 msgstr ""
 
 #: gphoto2/main.c:1557
-#, fuzzy
 msgid "Capture a movie"
 msgstr "Capturar una película "
 
@@ -928,12 +926,10 @@ msgid "Show summary"
 msgstr ""
 
 #: gphoto2/main.c:1569
-#, fuzzy
 msgid "Show camera driver manual"
 msgstr "Manual del controlador de la cámara"
 
 #: gphoto2/main.c:1571
-#, fuzzy
 msgid "About the camera driver manual"
 msgstr "Acerca del controlador de la cámara"
 

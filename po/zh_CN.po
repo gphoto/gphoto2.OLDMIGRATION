@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2\n"
-"POT-Creation-Date: 2002-11-20 19:11+0100\n"
+"POT-Creation-Date: 2002-12-01 21:24+0100\n"
 "PO-Revision-Date: 2002-11-21 09:26+0800\n"
 "Last-Translator: Wang Li <charles@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
@@ -467,6 +467,22 @@ msgid ""
 msgstr ""
 "错误的文件编号。您给出 %1$i，但在“%3$s”中只有 %2$i 个文件。请首先从文件列表中"
 "获取一个合法的文件编号。"
+
+# frontends/command-line/main.c:1753
+#: gphoto2/gp-params.c:64
+#, fuzzy
+msgid "*** Error ***              \n"
+msgstr ""
+"*** 错误 (%i：“%s”) ***       \n"
+"\n"
+
+#: gphoto2/gp-params.c:231
+msgid "Press any key to continue.\n"
+msgstr ""
+
+#: gphoto2/gp-params.c:248
+msgid "Not enough memory."
+msgstr ""
 
 # frontends/command-line/gphoto2-cmd-capture.c:218
 # libgphoto2/gphoto2-result.c:51
@@ -1031,7 +1047,9 @@ msgstr "操作已取消。\n"
 msgid ""
 "*** Error (%i: '%s') ***       \n"
 "\n"
-msgstr "*** 错误 (%i：“%s”) ***       \n\n"
+msgstr ""
+"*** 错误 (%i：“%s”) ***       \n"
+"\n"
 
 # frontends/command-line/main.c:1759
 #: gphoto2/main.c:1426

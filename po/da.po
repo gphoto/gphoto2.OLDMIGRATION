@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto 0.4.3\n"
-"POT-Creation-Date: 2002-11-20 19:11+0100\n"
+"POT-Creation-Date: 2002-12-01 21:24+0100\n"
 "PO-Revision-Date: 2000-04-19 10:12+02:00\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Dansk <dansk@klid.dk>\n"
@@ -388,6 +388,18 @@ msgstr ""
 msgid ""
 "Bad file number. You specified %i, but there are only %i files available in "
 "'%s'.Please obtain a valid file number from a file listing first."
+msgstr ""
+
+#: gphoto2/gp-params.c:64
+msgid "*** Error ***              \n"
+msgstr ""
+
+#: gphoto2/gp-params.c:231
+msgid "Press any key to continue.\n"
+msgstr ""
+
+#: gphoto2/gp-params.c:248
+msgid "Not enough memory."
 msgstr ""
 
 #: gphoto2/gphoto2-cmd-capture.c:218

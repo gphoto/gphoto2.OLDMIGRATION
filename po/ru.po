@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto\n"
-"POT-Creation-Date: 2002-11-20 19:11+0100\n"
+"POT-Creation-Date: 2002-12-01 21:24+0100\n"
 "PO-Revision-Date: 2000-05-23 22:02+00:00\n"
 "Last-Translator: Valek Filippov <frob@df.ru>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -386,6 +386,18 @@ msgstr ""
 msgid ""
 "Bad file number. You specified %i, but there are only %i files available in "
 "'%s'.Please obtain a valid file number from a file listing first."
+msgstr ""
+
+#: gphoto2/gp-params.c:64
+msgid "*** Error ***              \n"
+msgstr ""
+
+#: gphoto2/gp-params.c:231
+msgid "Press any key to continue.\n"
+msgstr ""
+
+#: gphoto2/gp-params.c:248
+msgid "Not enough memory."
 msgstr ""
 
 #: gphoto2/gphoto2-cmd-capture.c:218

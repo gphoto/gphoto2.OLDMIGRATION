@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2 2.1.1rc2\n"
-"POT-Creation-Date: 2002-11-26 00:59+0900\n"
+"POT-Creation-Date: 2002-12-01 21:24+0100\n"
 "PO-Revision-Date: 2002-11-25 08:16+0900\n"
 "Last-Translator: Takeshi Aihana <aihana@gnome.gr.jp>\n"
 "Language-Team: Japanese <translation@gnome.gr.jp>\n"
@@ -400,6 +400,21 @@ msgstr ""
 "ファイル番号がおかしいです。%i を指定ましたが、%i 個のファイルしか '%s' の中"
 "にありません。まず最初にファイル一覧から正しい番号を取得して下さい。"
 
+#: gphoto2/gp-params.c:64
+#, fuzzy
+msgid "*** Error ***              \n"
+msgstr ""
+"*** エラー (%i: '%s') ***       \n"
+"\n"
+
+#: gphoto2/gp-params.c:231
+msgid "Press any key to continue.\n"
+msgstr ""
+
+#: gphoto2/gp-params.c:248
+msgid "Not enough memory."
+msgstr ""
+
 #: gphoto2/gphoto2-cmd-capture.c:218
 msgid "Operation cancelled"
 msgstr "操作をキャンセルしました"
@@ -445,7 +460,6 @@ msgstr "はい"
 msgid "No"
 msgstr "いいえ"
 
-#. Settings needed for formatting output
 #: gphoto2/main.c:183 gphoto2/main.c:1475
 msgid "Turn on debugging"
 msgstr "デバッグを有効にする"
@@ -454,7 +468,6 @@ msgstr "デバッグを有効にする"
 msgid "Quiet output (default=verbose)"
 msgstr "簡易出力 (デフォルト=詳細)"
 
-#. Display and die actions
 #: gphoto2/main.c:188 gphoto2/main.c:1481
 msgid "Display version and exit"
 msgstr "バージョン情報を表示して終了する"
@@ -483,7 +496,6 @@ msgstr "データの前にファイルサイズを出力する"
 msgid "List auto-detected cameras"
 msgstr "自動検出したカメラの一覧を表示する"
 
-#. Settings needed for camera functions
 #: gphoto2/main.c:197 gphoto2/main.c:1493
 msgid "Specify port device"
 msgstr "ポート・デバイスを指定する"
@@ -504,7 +516,6 @@ msgstr "ファイル名を指定する"
 msgid "(expert only) Override USB IDs"
 msgstr "USB ID の上書き (エキスパート向け)"
 
-#. Actions that depend on settings
 #: gphoto2/main.c:204 gphoto2/main.c:1503
 msgid "Display camera abilities"
 msgstr "カメラの性能を表示する"
@@ -949,7 +960,6 @@ msgstr ""
 msgid "Usage:\n"
 msgstr "用法:\n"
 
-#. Make this 79 characters long. Some languages need the space.
 #: gphoto2/options.c:202
 msgid ""
 "Short/long options (& argument)        Description\n"
@@ -958,16 +968,11 @@ msgstr ""
 "オプション (含む引数)                  説明\n"
 "--------------------------------------------------------------------------------\n"
 
-#. The format line is made translatable so that some
-#. languages can make the table a bit tighter. Make
-#. sure you only use 79 characters (since #80 is
-#. needed for the line break).
 #: gphoto2/options.c:227
 #, c-format
 msgid "%-38s %s\n"
 msgstr "%-38s %s\n"
 
-#. Make this 79 characters long. Some languages need the space.
 #: gphoto2/options.c:232
 msgid ""
 "--------------------------------------------------------------------------------\n"
@@ -1128,7 +1133,6 @@ msgstr ""
 "コマンド '%s' が見つかりませんでした。'help' で利用可能なコマンド一覧を表示し"
 "ます。"
 
-#. Print the command's syntax.
 #: gphoto2/shell.c:739
 #, c-format
 msgid "Help on \"%s\":"
@@ -1146,7 +1150,6 @@ msgstr "説明:"
 msgid "* Arguments in brackets [] are optional"
 msgstr "* [] 内の引数はオプションです。"
 
-#. No command specified. Print command listing.
 #: gphoto2/shell.c:768
 msgid "Available commands:"
 msgstr "利用可能なコマンド:"
