@@ -8,19 +8,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2\n"
-"POT-Creation-Date: 2002-11-20 19:11+0100\n"
-"PO-Revision-Date: 2002-05-30 10:22+0200\n"
-"Last-Translator: Marcus Meissner <marcus@jet.franken.de>\n"
-"Language-Team: Deutsch <de@li.org>\n"
+"POT-Creation-Date: 2002-11-28 04:02-0800\n"
+"PO-Revision-Date: 2002-11-28 04:14-0800\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
 #: gphoto2/actions.c:117
-#, fuzzy, c-format
+#, c-format
 msgid "Number of files in folder '%s': %i\n"
-msgstr "Anzahl der Dateien im Verzeichnis %s: %i\n"
+msgstr "Anzahl der Dateien im Verzeichnis »%s«: %i\n"
 
 #: gphoto2/actions.c:136
 #, c-format
@@ -320,28 +320,20 @@ msgstr ""
 "daß die Schreibweise korrekt ist (mit Präfix »serial:« oder »usb:«)."
 
 #: gphoto2/actions.c:680
-#, fuzzy
 msgid "About the camera driver:"
 msgstr "Über den Kameratreiber"
 
 #: gphoto2/actions.c:694
-#, fuzzy
 msgid "Camera summary:"
-msgstr ""
-"Kamerazusammenfassung:\n"
-"%s\n"
+msgstr "Kamerazusammenfassung:"
 
 #: gphoto2/actions.c:708
-#, fuzzy
 msgid "Camera manual:"
-msgstr ""
-"Kameraanleitung:\n"
-"%s\n"
+msgstr "Kameraanleitung:"
 
 #: gphoto2/actions.c:724
-#, fuzzy
 msgid "You can only specify speeds for serial ports."
-msgstr "Nur mit seriellen Ports können Sie eine Datenrate setzen"
+msgstr "Nur mit seriellen Ports können Sie eine Datenrate setzen."
 
 #: gphoto2/actions.c:775
 #, c-format
@@ -358,13 +350,22 @@ msgid ""
 "This version of gphoto2 is using the following software versions and "
 "options:\n"
 msgstr ""
+"gphoto2 %s\n"
+"\n"
+"Copyright (C) 2000-2002 Lutz Müller und andere\n"
+"%s\n"
+"gphoto2 comes with NO WARRANTY, to the extent permitted by law. You may\n"
+"redistribute copies of gphoto2 under the terms of the GNU General Public\n"
+"License. For more information about these matters, see the files named "
+"COPYING.\n"
+"Diese Version von gphoto2 benutzt die folgenden Softwareversionen und "
+"Optionen:\n"
 
 #: gphoto2/actions.c:788
 msgid "OS/2 port by Bart van Leeuwen\n"
 msgstr "OS/2-Portierung von Bart van Leeuwen\n"
 
 #: gphoto2/actions.c:902
-#, fuzzy
 msgid ""
 "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE "
 "MAILING LIST:"
@@ -399,6 +400,18 @@ msgid ""
 msgstr ""
 "Fehlerhafte Dateinummer. Sie gaben %i an, aber es gibt nur %i Dateien in »%"
 "s«. Bite holen Sie zuerst eine gültige Dateinummer aus einer Dateiliste."
+
+#: gphoto2/gp-params.c:64
+msgid "*** Error ***              \n"
+msgstr "*** Fehler ***      \n"
+
+#: gphoto2/gp-params.c:231
+msgid "Press any key to continue.\n"
+msgstr "Eine beliebige Taste drücken um fortzusetzen.\n"
+
+#: gphoto2/gp-params.c:248
+msgid "Not enough memory."
+msgstr "Ungenügend Speicher."
 
 #: gphoto2/gphoto2-cmd-capture.c:218
 msgid "Operation cancelled"
@@ -640,173 +653,168 @@ msgstr ""
 
 #: gphoto2/main.c:488
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: gphoto2/main.c:488
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 #: gphoto2/main.c:489
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 #: gphoto2/main.c:489
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 #: gphoto2/main.c:490
-#, fuzzy
 msgid "Mar"
-msgstr "Makro"
+msgstr "Mär"
 
 #: gphoto2/main.c:490
-#, fuzzy
 msgid "March"
-msgstr "Makro"
+msgstr "März"
 
 #: gphoto2/main.c:491
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 #: gphoto2/main.c:491
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: gphoto2/main.c:492
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: gphoto2/main.c:493
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: gphoto2/main.c:493
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: gphoto2/main.c:494
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: gphoto2/main.c:494
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: gphoto2/main.c:495
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 #: gphoto2/main.c:495
-#, fuzzy
 msgid "August"
-msgstr "Auto"
+msgstr "August"
 
 #: gphoto2/main.c:496
-#, fuzzy
 msgid "Sep"
-msgstr "Sepia"
+msgstr "Sep"
 
 #: gphoto2/main.c:496
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: gphoto2/main.c:497
 msgid "Oct"
-msgstr ""
+msgstr "Okt"
 
 #: gphoto2/main.c:497
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: gphoto2/main.c:498
-#, fuzzy
 msgid "Nov"
-msgstr "Nein"
+msgstr "Nov"
 
 #: gphoto2/main.c:498
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: gphoto2/main.c:499
 msgid "Dec"
-msgstr ""
+msgstr "Dez"
 
 #: gphoto2/main.c:499
 msgid "December"
-msgstr ""
+msgstr "Dezember"
 
 #: gphoto2/main.c:506
 msgid "Sun"
-msgstr ""
+msgstr "Son"
 
 #: gphoto2/main.c:506
 msgid "Sunday"
-msgstr ""
+msgstr "Sonntag"
 
 #: gphoto2/main.c:507
-#, fuzzy
 msgid "Mon"
-msgstr "an"
+msgstr "Mon"
 
 #: gphoto2/main.c:507
 msgid "Monday"
-msgstr ""
+msgstr "Montag"
 
 #: gphoto2/main.c:508
 msgid "Tue"
-msgstr ""
+msgstr "Die"
 
 #: gphoto2/main.c:508
 msgid "Tuesday"
-msgstr ""
+msgstr "Dienstag"
 
 #: gphoto2/main.c:509
-#, fuzzy
 msgid "Wed"
-msgstr "Rot"
+msgstr "Mit"
 
 #: gphoto2/main.c:509
 msgid "Wednesday"
-msgstr ""
+msgstr "Mittwoch"
 
 #: gphoto2/main.c:510
 msgid "Thu"
-msgstr ""
+msgstr "Don"
 
 #: gphoto2/main.c:510
 msgid "Thursday"
-msgstr ""
+msgstr "Donnerstag"
 
 #: gphoto2/main.c:511
 msgid "Fri"
-msgstr ""
+msgstr "Fre"
 
 #: gphoto2/main.c:511
 msgid "Friday"
-msgstr ""
+msgstr "Freitag"
 
 #: gphoto2/main.c:512
 msgid "Sat"
-msgstr ""
+msgstr "Sam"
 
 #: gphoto2/main.c:512
 msgid "Saturday"
-msgstr ""
+msgstr "Samstag"
 
 #: gphoto2/main.c:569
 #, c-format
 msgid "You cannot use '%n' in combination with non-persistent files!"
 msgstr ""
+"Sie können >>%n<< nicht im Zusammenhang mit nicht-persistenten Dateien "
+"benutzen!"
 
 #: gphoto2/main.c:592
 #, c-format
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
-msgstr ""
+msgstr "Der von der Kamera gelieferte Filename (»%s«) enthält keine Dateiendung."
 
 #: gphoto2/main.c:668
 #, c-format
 msgid "Invalid format '%s' (error at position %i)."
-msgstr ""
+msgstr "Ungültiges Format »%s« (Fehler an Position %i)."
 
 # !!! [y/n] !!! [CM]
 #: gphoto2/main.c:715
@@ -857,21 +865,20 @@ msgstr ""
 "Abbruch...\n"
 
 #: gphoto2/main.c:1305
-#, fuzzy
 msgid "gphoto2 has been compiled without support for CDK."
-msgstr "gphoto2 wurde ohne Unterstützung für EXIF kompiliert."
+msgstr "gphoto2 wurde ohne Unterstützung für CDK kompiliert."
 
 #: gphoto2/main.c:1418
 msgid "Operation cancelled.\n"
 msgstr "Operation abgebrochen.\n"
 
 #: gphoto2/main.c:1422
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "*** Error (%i: '%s') ***       \n"
 "\n"
 msgstr ""
-"*** Fehler ('%s') ***      \n"
+"*** Fehler (%i: »%s«) ***      \n"
 "\n"
 
 #: gphoto2/main.c:1426
@@ -892,52 +899,47 @@ msgstr ""
 
 #: gphoto2/main.c:1479
 msgid "Overwrite files without asking."
-msgstr ""
+msgstr "Dateien ohne Nachfragen überschreiben."
 
 #: gphoto2/main.c:1493
 msgid "path"
-msgstr ""
+msgstr "Pfad"
 
 #: gphoto2/main.c:1495
 msgid "speed"
-msgstr ""
+msgstr "Baudrate"
 
 #: gphoto2/main.c:1497
-#, fuzzy
 msgid "model"
 msgstr "Modell"
 
 #: gphoto2/main.c:1499
-#, fuzzy
 msgid "filename"
-msgstr "fein"
+msgstr "Dateiname"
 
 #: gphoto2/main.c:1501
 msgid "usbid"
-msgstr ""
+msgstr "usbid"
 
 #: gphoto2/main.c:1505
 msgid "folder"
-msgstr ""
+msgstr "Verzeichnis"
 
 #: gphoto2/main.c:1557
-#, fuzzy
 msgid "Capture a movie"
 msgstr "Eine Filmaufnahme machen"
 
 #: gphoto2/main.c:1567
 msgid "Show summary"
-msgstr ""
+msgstr "Zusammenfassung zeigen"
 
 #: gphoto2/main.c:1569
-#, fuzzy
 msgid "Show camera driver manual"
-msgstr "Anleitung für Kameratreiber"
+msgstr "Anleitung für Kameratreiber zeigen"
 
 #: gphoto2/main.c:1571
-#, fuzzy
 msgid "About the camera driver manual"
-msgstr "Über den Kameratreiber"
+msgstr "Die Kameratreiberhilfe anzeigen"
 
 #: gphoto2/main.c:1796
 msgid ""
