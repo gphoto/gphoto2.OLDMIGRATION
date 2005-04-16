@@ -1,16 +1,17 @@
 # Dutch translation of gphoto2.
 # Copyright (C) 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gphoto2 package.
-# Julie Vermeersch <julie@lambda1.be>, 2004
-#
+# Julie Vermeersch <julie@lambda1.be>, 2004, 2005
+# 
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gphoto2 2.1.2\n"
+"Project-Id-Version: gphoto2 2.1.6rc1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-02-08 10:33+0100\n"
-"PO-Revision-Date: 2004-08-21 14:31+0100\n"
+"POT-Creation-Date: 2005-04-11 13:08-0400\n"
+"PO-Revision-Date: 2005-04-16 21:18+0200\n"
 "Last-Translator: Julie Vermeersch <julie@lambda1.be>\n"
-"Language-Team: Dutch <vertaling@nl.linux.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -298,10 +299,9 @@ msgid "                                 : Preview\n"
 msgstr "                                 : Voorbeeldweergave\n"
 
 #: gphoto2/actions.c:651
-#, fuzzy, c-format
-msgid ""
-"                                 : Capture not supported by the driver\n"
-msgstr "                                 : Voorbeeldweergave\n"
+#, c-format
+msgid "                                 : Capture not supported by the driver\n"
+msgstr "                                 : Vastleggen niet ondersteund door het stuurprogramma\n"
 
 #: gphoto2/actions.c:653
 #, c-format
@@ -325,23 +325,13 @@ msgstr "Ondersteuning van bestandsuploaden : %s\n"
 
 #: gphoto2/actions.c:678
 #, c-format
-msgid ""
-"Ports must look like 'serial:/dev/ttyS0' or 'usb:', but '%s' is missing a "
-"colon so I am going to guess what you mean."
-msgstr ""
-"Poorten moeten eruit zien als 'serial:/dev/ttyS0' of 'usb:', maar '%s' mist "
-"een dubbelpunt, dus ik ga gokken wat u bedoelt."
+msgid "Ports must look like 'serial:/dev/ttyS0' or 'usb:', but '%s' is missing a colon so I am going to guess what you mean."
+msgstr "Poorten moeten eruit zien als 'serial:/dev/ttyS0' of 'usb:', maar '%s' mist een dubbelpunt, dus ik ga gokken wat u bedoelt."
 
 #: gphoto2/actions.c:717
 #, c-format
-msgid ""
-"The port you specified ('%s') can not be found. Please specify one of the "
-"ports found by 'gphoto2 --list-ports' and make sure the spelling is correct "
-"(i.e. with prefix 'serial:' or 'usb:')."
-msgstr ""
-"De poort die u heeft gespecificeerd ('%s') kan niet worden gevonden. "
-"Specificeer één van de poorten gevonden door 'gphoto2 --list-ports' en zorg "
-"dat de schrijfwijze juist is (b.v. met voorzetsel 'serial:' of 'usb:')."
+msgid "The port you specified ('%s') can not be found. Please specify one of the ports found by 'gphoto2 --list-ports' and make sure the spelling is correct (i.e. with prefix 'serial:' or 'usb:')."
+msgstr "De poort die u heeft gespecificeerd ('%s') kan niet worden gevonden. Specificeer één van de poorten gevonden door 'gphoto2 --list-ports' en zorg dat de schrijfwijze juist is (b.v. met voorzetsel 'serial:' of 'usb:')."
 
 #: gphoto2/actions.c:755
 #, c-format
@@ -364,7 +354,7 @@ msgid "You can only specify speeds for serial ports."
 msgstr "U kunt enkel snelheden specificeren voor seriële poorten."
 
 #: gphoto2/actions.c:847
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "gphoto2 %s\n"
 "\n"
@@ -372,24 +362,19 @@ msgid ""
 "%s\n"
 "gphoto2 comes with NO WARRANTY, to the extent permitted by law. You may\n"
 "redistribute copies of gphoto2 under the terms of the GNU General Public\n"
-"License. For more information about these matters, see the files named "
-"COPYING.\n"
+"License. For more information about these matters, see the files named COPYING.\n"
 "\n"
-"This version of gphoto2 is using the following software versions and "
-"options:\n"
+"This version of gphoto2 is using the following software versions and options:\n"
 msgstr ""
 "gphoto2 %s\n"
 "\n"
-"Auteursrecht (c) 2000-2003 Lutz Mueller en anderen\n"
+"Auteursrecht (c) 2000-2004 Lutz Mueller en anderen\n"
 "%s\n"
 "gphoto2 komt ZONDER GARANTIE, in de mate toegelaten door de wet. U mag \n"
-"kopiën van gphoto2 opnieuw ronddelen volgens de voorwaarden van de GNU "
-"General \n"
-"Public License (Algemene publieke licentie). Voor meer informatie over deze "
-"zaken, bekijk de bestanden genaamd COPYING.\n"
+"kopiën van gphoto2 opnieuw ronddelen volgens de voorwaarden van de GNU General \n"
+"Public License (Algemene publieke licentie). Voor meer informatie over deze zaken, bekijk de bestanden genaamd COPYING.\n"
 "\n"
-"Deze versie van gphoto2 gebruikt de volgende programmatuurversies en -"
-"opties:\n"
+"Deze versie van gphoto2 gebruikt de volgende programmatuurversies en -opties:\n"
 
 #: gphoto2/actions.c:860
 msgid "OS/2 port by Bart van Leeuwen\n"
@@ -398,153 +383,132 @@ msgstr "OS/2 poort door Bart van Leeuwen\n"
 #: gphoto2/actions.c:933
 #, c-format
 msgid "Overriding USB vendor/product id 0x%x/0x%x with 0x%x/0x%x"
-msgstr ""
+msgstr "USB-verkoper/product-id 0x%x/0x%x·met·0x%x/0x%x aan het overschrijven"
 
 #: gphoto2/actions.c:984
-msgid ""
-"ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE "
-"MAILING LIST:"
-msgstr ""
-"NEEM ALTIJD DE VOLGENDE REGELS OP BIJ HET ZENDEN VAN EEN DEBUG-BERICHT NAAR "
-"DE E-MAILLIJST:"
+msgid "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:"
+msgstr "NEEM ALTIJD DE VOLGENDE REGELS OP BIJ HET ZENDEN VAN EEN DEBUG-BERICHT NAAR DE E-MAILLIJST:"
 
 #: gphoto2/actions.c:999
 #, c-format
 msgid "%s has been compiled with the following options:"
-msgstr ""
+msgstr "%s is gecompileerd met de volgende opties:"
 
 #: gphoto2/actions.c:1096
-#, fuzzy, c-format
+#, c-format
 msgid "%s not found in configuration tree."
-msgstr "Kon de configuratie niet instellen:"
+msgstr "%s niet gevonden in instellingsboom."
 
 #: gphoto2/actions.c:1138
 #, c-format
 msgid "Failed to retrieve value of text widget %s."
-msgstr ""
+msgstr "Ophalen van waarde van tekstonderdeel %s mislukt."
 
 #: gphoto2/actions.c:1155
 #, c-format
 msgid "Failed to retrieve values of range widget %s."
-msgstr ""
+msgstr "Ophalen van waardes van bereikonderdeel %s mislukt."
 
 #: gphoto2/actions.c:1167
 #, c-format
 msgid "Failed to retrieve values of toggle widget %s."
-msgstr ""
+msgstr "Ophalen van waardes van schakelonderdeel %s mislukt."
 
 #: gphoto2/actions.c:1179
 #, c-format
 msgid "Failed to retrieve values of date/time widget %s."
-msgstr ""
+msgstr "Ophalen van waardes van datum-/tijd-onderdeel %s mislukt."
 
 #: gphoto2/actions.c:1209
 #, c-format
 msgid "Failed to retrieve values of radio widget %s."
-msgstr ""
+msgstr "Ophalen van waarden van radio-onderdeel %s mislukt."
 
 #: gphoto2/actions.c:1250
 #, c-format
 msgid "Failed to set the value of text widget %s to %s."
-msgstr ""
+msgstr "Instellen van waarde van tekstonderdeel %s als %s mislukt."
 
 #: gphoto2/actions.c:1260
 #, c-format
 msgid "The passed value %s is not a floating point value."
-msgstr ""
+msgstr "De gegeven waarde %s is geen drijvende puntwaarde."
 
 #: gphoto2/actions.c:1265
 #, c-format
 msgid "The passed value %f is not within the expected range %f - %f."
-msgstr ""
+msgstr "De gegeven waarde %f ligt niet in het verwachte bereik %f - %f."
 
 #: gphoto2/actions.c:1271
 #, c-format
 msgid "Failed to set the value of range widget %s to %f."
-msgstr ""
+msgstr "Instellen van waarde van bereikonderdeel %s als %f mislukt."
 
 #: gphoto2/actions.c:1280
 msgid "off"
-msgstr ""
+msgstr "Uit"
 
 #: gphoto2/actions.c:1281
-#, fuzzy
 msgid "false"
-msgstr "Waarde"
+msgstr "fout"
 
 #: gphoto2/actions.c:1286
-#, fuzzy
 msgid "on"
-msgstr "Ma"
+msgstr "Aan"
 
 #: gphoto2/actions.c:1287
 msgid "true"
-msgstr ""
+msgstr "waar"
 
 #: gphoto2/actions.c:1291
 #, c-format
 msgid "The passed value %s is not a valid toggle value."
-msgstr ""
+msgstr "De gegeven waarde %s is geen geldige schakelwaarde."
 
 #: gphoto2/actions.c:1297
 #, c-format
 msgid "Failed to set values %s of toggle widget %s."
-msgstr ""
+msgstr "Instellen van waardes %s van schakelonderdeel %s mislukt."
 
 #: gphoto2/actions.c:1310
 #, c-format
 msgid "The passed value %s is neither a valid time nor an integer."
-msgstr ""
+msgstr "De gegeven waarde %s is geen geldige tijd, noch een geheel getal."
 
 #: gphoto2/actions.c:1317
 #, c-format
 msgid "Failed to set new time of date/time widget %s to %s."
-msgstr ""
+msgstr "Instellen van nieuw datum-/tijd-onderdeel %s als %s mislukt."
 
 #: gphoto2/actions.c:1354
 #, c-format
 msgid "Choice %s not found within list of choices."
-msgstr ""
+msgstr "Keuze %s niet gevonden in lijst met keuzes."
 
 #: gphoto2/actions.c:1362
 #, c-format
 msgid "The %s widget is not configurable."
-msgstr ""
+msgstr "Het %s onderdeel is niet instelbaar."
 
 #: gphoto2/actions.c:1369
 #, c-format
 msgid "Failed to set new configuration value %s for configuration entry %s."
-msgstr ""
+msgstr "Instellen van nieuwe configuratiewaarde %s voor configuratie-opgave %s mislukt."
 
 #: gphoto2/foreach.c:254
 #, c-format
-msgid ""
-"Bad file number. You specified %i, but there are only %i files available in "
-"'%s' or its subfolders. Please obtain a valid file number from a file "
-"listing first."
-msgstr ""
-"Slecht bestandsaantal. U heeft %i gespecificeerd, maar er zijn maar %i "
-"bestanden beschikbaar in '%s' of zijn onderliggende mappen. Bemachtig eerst "
-"een geldig bestandsaantal van een weergave van de bestanden."
+msgid "Bad file number. You specified %i, but there are only %i files available in '%s' or its subfolders. Please obtain a valid file number from a file listing first."
+msgstr "Slecht bestandsaantal. U heeft %i gespecificeerd, maar er zijn maar %i bestanden beschikbaar in '%s' of zijn onderliggende mappen. Bemachtig eerst een geldig bestandsaantal van een weergave van de bestanden."
 
 #: gphoto2/foreach.c:283
 #, c-format
-msgid ""
-"Bad file number. You specified %i, but there is only 1 file available in '%"
-"s'."
-msgstr ""
-"Slecht bestandsaantal. U heeft %i gespecificeerd, maar er is maar één "
-"bestandbeschikbaar in '%s'."
+msgid "Bad file number. You specified %i, but there is only 1 file available in '%s'."
+msgstr "Slecht bestandsaantal. U heeft %i gespecificeerd, maar er is maar één bestandbeschikbaar in '%s'."
 
 #: gphoto2/foreach.c:291
-#, fuzzy, c-format
-msgid ""
-"Bad file number. You specified %i, but there are only %i files available in "
-"'%s'. Please obtain a valid file number from a file listing first."
-msgstr ""
-"Slecht bestandsaantal. U heeft %i gespecificeerd, maar er zijn maar %i "
-"bestanden beschikbaarin '%s'. Bemachtig eerst een geldig bestandsaantal van "
-"een weergave van de bestanden."
+#, c-format
+msgid "Bad file number. You specified %i, but there are only %i files available in '%s'. Please obtain a valid file number from a file listing first."
+msgstr "Vals bestandsaantal. U heeft %i gespecificeerd, maar er zijn maar %i bestanden beschikbaar in '%s'. Bemachtig eerst een geldig bestandsaantal van een weergave van de bestanden."
 
 #: gphoto2/gp-params.c:59
 #, c-format
@@ -680,7 +644,7 @@ msgstr "Geen recursie (standaard voor verwijdering)"
 
 #: gphoto2/main.c:192 gphoto2/main.c:1674
 msgid "Process new files only"
-msgstr ""
+msgstr "Enkel nieuwe bestanden behandelen"
 
 #: gphoto2/main.c:193 gphoto2/main.c:1676
 msgid "List folders in folder"
@@ -755,25 +719,24 @@ msgid "Configure"
 msgstr "Configureren"
 
 #: gphoto2/main.c:212
-#, fuzzy
 msgid "List the configuration tree"
-msgstr "Kon de configuratie niet instellen:"
+msgstr "De instellingsboom weergeven"
 
 #: gphoto2/main.c:213
 msgid "Get a configuration variable"
-msgstr ""
+msgstr "Een instellingsvariable verkrijgen"
 
 #: gphoto2/main.c:214
 msgid "Set a configuration variable"
-msgstr ""
+msgstr "Een configuratievariable instellen"
 
 #: gphoto2/main.c:215 gphoto2/main.c:1726
 msgid "Set number of frames to capture (default=infinite)"
-msgstr ""
+msgstr "Aantal vast te leggen vensters instellen (standaard=oneindig)"
 
 #: gphoto2/main.c:216 gphoto2/main.c:1728
 msgid "Set capture interval in seconds"
-msgstr ""
+msgstr "Vastleginterval in seconden instellen"
 
 #: gphoto2/main.c:217 gphoto2/main.c:1724
 msgid "Capture a quick preview"
@@ -817,24 +780,18 @@ msgstr "gPhoto shell"
 
 #: gphoto2/main.c:382 gphoto2/main.c:1343
 #, c-format
-msgid ""
-"Use the following syntax a:b=c:d to treat any USB device detected as a:b as "
-"c:d instead. a b c d should be hexadecimal numbers beginning with '0x'.\n"
-msgstr ""
-"Gebruik de volgende tekenreeks a:b=c:d om elk USB-apparaat gedetecteerd als "
-"a:b te behandelen als c:d. a b c d moeten hexadecimale nummers zijn "
-"beginnend met '0x'.\n"
+msgid "Use the following syntax a:b=c:d to treat any USB device detected as a:b as c:d instead. a b c d should be hexadecimal numbers beginning with '0x'.\n"
+msgstr "Gebruik de volgende tekenreeks a:b=c:d om elk USB-apparaat gedetecteerd als a:b te behandelen als c:d. a b c d moeten hexadecimale nummers zijn beginnend met '0x'.\n"
 
 #: gphoto2/main.c:581
-#, fuzzy, c-format
+#, c-format
 msgid "You cannot use '%%n' in combination with non-persistent files!"
-msgstr "U kunt '%n' niet gebruiken in combinatie met niet-blijvende bestanden!"
+msgstr "U kunt '%%n' niet gebruiken in combinatie met tijdelijke bestanden!"
 
 #: gphoto2/main.c:604
 #, c-format
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
-msgstr ""
-"De bestandsnaam aangeboden door de camera ('%s') bevat geen achtervoegsel!"
+msgstr "De bestandsnaam aangeboden door de camera ('%s') bevat geen achtervoegsel!"
 
 #: gphoto2/main.c:654
 #, c-format
@@ -864,27 +821,26 @@ msgstr "Bestand aan het opslaan als %s\n"
 #: gphoto2/main.c:957
 #, c-format
 msgid "Time-lapse mode enabled (interval: %ds).\n"
-msgstr ""
+msgstr "Tijdverloopmodus ingeschakeld (interval: %ds).\n"
 
 #: gphoto2/main.c:964
 #, c-format
 msgid "Capturing frame #%d...\n"
-msgstr ""
+msgstr "Venster #%d aan het vastleggen...\n"
 
 #: gphoto2/main.c:966
 #, c-format
 msgid "Capturing frame #%d/%d...\n"
-msgstr ""
+msgstr "Venster #%d/%d aan het vastleggen...\n"
 
 #: gphoto2/main.c:973
-#, fuzzy
 msgid "Could not capture."
-msgstr "Kon EXIF-gegevens niet ontleden"
+msgstr "Kon niet vastleggen."
 
 #: gphoto2/main.c:982
 #, c-format
 msgid "Capture failed (auto-focus problem?)...\n"
-msgstr ""
+msgstr "Vastleggen mislukt (auto-focus probleem?)...\n"
 
 #: gphoto2/main.c:996
 #, c-format
@@ -892,38 +848,34 @@ msgid "New file is in location %s%s%s on the camera\n"
 msgstr "Nieuw bestand is op locatie %s%s%s op de camera\n"
 
 #: gphoto2/main.c:1006
-#, fuzzy
 msgid "Could not set folder."
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Kon de map niet instellen."
 
 #: gphoto2/main.c:1024
-#, fuzzy
 msgid "Could not get image."
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Kon afbeelding niet verkrijgen."
 
 #: gphoto2/main.c:1031
 msgid "Buggy libcanon.so?"
-msgstr ""
+msgstr "Fouten in libcanon.so?"
 
 #: gphoto2/main.c:1037
-#, fuzzy, c-format
+#, c-format
 msgid "Deleting file %s%s%s on the camera\n"
-msgstr "Nieuw bestand is op locatie %s%s%s op de camera\n"
+msgstr "Bestand %s%s%s op de camera aan het verwijderen\n"
 
 #: gphoto2/main.c:1042
-#, fuzzy
 msgid "Could not delete image."
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Kon afbeelding niet verwijderen."
 
 #: gphoto2/main.c:1056
-#, fuzzy
 msgid "Could not close camera connection."
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Kon de cameraverbinding niet verbreken."
 
 #: gphoto2/main.c:1060
 #, c-format
 msgid "Sleeping for %d second(s)...\n"
-msgstr ""
+msgstr "Al %d seconde(n) aan het slapen...\n"
 
 #: gphoto2/main.c:1194
 #, c-format
@@ -983,16 +935,14 @@ msgid ""
 msgstr ""
 "Voor debugberichten, gebruik de --debug optie.\n"
 "Debugberichten kunnen helpen bij het zoeken naar een oplossing voor uw\n"
-"probleem. Als u van plan bent om een fout- of debugbericht op te sturen "
-"naar\n"
+"probleem. Als u van plan bent om een fout- of debugbericht op te sturen naar\n"
 "de gphoto ontwikkelings-maillijst <gphoto-devel@lists.sourceforge.net>,\n"
 "voer dan alstublijft gphoto uit als volgt:\n"
 "\n"
 
 #: gphoto2/main.c:1642
-#, fuzzy
 msgid "Overwrite files without asking"
-msgstr "Bestanden overschrijven zonder te vragen."
+msgstr "Bestanden overschrijven zonder te vragen"
 
 #: gphoto2/main.c:1656
 msgid "path"
@@ -1019,27 +969,24 @@ msgid "folder"
 msgstr "map"
 
 #: gphoto2/main.c:1717
-#, fuzzy
 msgid "List configuration tree"
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Instellingsboom weergeven"
 
 #: gphoto2/main.c:1719
-#, fuzzy
 msgid "Get configuration value"
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Instellingswaarde verkrijgen"
 
 #: gphoto2/main.c:1721
-#, fuzzy
 msgid "Set configuration value"
-msgstr "Kon de configuratie niet instellen:"
+msgstr "Configuratiewaarde instellen"
 
 #: gphoto2/main.c:1726
 msgid "count"
-msgstr ""
+msgstr "tellen"
 
 #: gphoto2/main.c:1728
 msgid "seconds"
-msgstr ""
+msgstr "seconden"
 
 #: gphoto2/main.c:1732
 msgid "Capture a movie"
@@ -1059,21 +1006,13 @@ msgstr "Over de handleiding voor de cameraprogrammatuur"
 
 #: gphoto2/main.c:1973
 #, c-format
-msgid ""
-"gPhoto2 for OS/2 requires you to set the enviroment value CAMLIBS to the "
-"location of the camera libraries. e.g. SET CAMLIBS=C:\\GPHOTO2\\CAM\n"
-msgstr ""
-"gPhoto2 voor OS/2 vereist dat u de omgevingswaarde CAMLIBS instelt naar de "
-"locatie van de camerabibliotheken. b.v. SET CAMLIBS=C:\\GPHOTO2\\CAM\n"
+msgid "gPhoto2 for OS/2 requires you to set the enviroment value CAMLIBS to the location of the camera libraries. e.g. SET CAMLIBS=C:\\GPHOTO2\\CAM\n"
+msgstr "gPhoto2 voor OS/2 vereist dat u de omgevingswaarde CAMLIBS instelt naar de locatie van de camerabibliotheken. b.v. SET CAMLIBS=C:\\GPHOTO2\\CAM\n"
 
 #: gphoto2/main.c:1983
 #, c-format
-msgid ""
-"gPhoto2 for OS/2 requires you to set the enviroment value IOLIBS to the "
-"location of the io libraries. e.g. SET IOLIBS=C:\\GPHOTO2\\IOLIB\n"
-msgstr ""
-"gPhoto2 voor OS/2 vereist dat u de omgevingswaarde IOLIBS instelt naar de "
-"locatie van de io-bibliotheken. b.v. SET IOLIBS=C:\\GPHOTO2\\IOLIB\n"
+msgid "gPhoto2 for OS/2 requires you to set the enviroment value IOLIBS to the location of the io libraries. e.g. SET IOLIBS=C:\\GPHOTO2\\IOLIB\n"
+msgstr "gPhoto2 voor OS/2 vereist dat u de omgevingswaarde IOLIBS instelt naar de locatie van de io-bibliotheken. b.v. SET IOLIBS=C:\\GPHOTO2\\IOLIB\n"
 
 #: gphoto2/options.c:181
 #, c-format
@@ -1098,12 +1037,10 @@ msgstr "%-38s %s\n"
 #, c-format
 msgid ""
 "--------------------------------------------------------------------------------\n"
-"[Use double-quotes around arguments]        [Picture numbers begin with one "
-"(1)]\n"
+"[Use double-quotes around arguments]        [Picture numbers begin with one (1)]\n"
 msgstr ""
 "--------------------------------------------------------------------------------\n"
-"[Gebruik dubbele aanhalingstekens rond argumenten]]  [Fotonummers beginnen "
-"met één (1)]\n"
+"[Gebruik dubbele aanhalingstekens rond argumenten]]  [Fotonummers beginnen met één (1)]\n"
 
 #: gphoto2/range.c:103 gphoto2/range.c:157
 #, c-format
@@ -1157,8 +1094,7 @@ msgid ""
 "Decreasing ranges are not allowed. You specified a range from %i to %i."
 msgstr ""
 "%s\n"
-"Afnemende bereiken zijn niet toegelaten. U kunt een bereik speciferen van %i "
-"tot %i."
+"Afnemende bereiken zijn niet toegelaten. U kunt een bereik speciferen van %i tot %i."
 
 #: gphoto2/shell.c:55
 #, c-format
@@ -1253,9 +1189,7 @@ msgstr "Map op een andere computer is nu '%s'."
 #: gphoto2/shell.c:738
 #, c-format
 msgid "Command '%s' not found. Use 'help' to get a list of available commands."
-msgstr ""
-"Commando '%s' niet gevonden. Gebruik 'help' om een lijst van beschikbare "
-"commando's te krijgen."
+msgstr "Commando '%s' niet gevonden. Gebruik 'help' om een lijst van beschikbare commando's te krijgen."
 
 #: gphoto2/shell.c:745
 #, c-format
