@@ -24,7 +24,7 @@ The man page is in the file doc/gphoto2.1
 How do I build it?
 ------------------
 
-  * If using SVN source, run "autoreconf -is".
+  * If source tree is a git clone, run "autoreconf -is".
   * configure
   * make
   * make install
