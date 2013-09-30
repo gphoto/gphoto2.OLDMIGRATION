@@ -82,7 +82,7 @@ action_camera_upload_file (GPParams *p, const char *folder, const char *path)
 {
 	CameraFile *file;
 	int res;
-	char *fn;
+	const char *fn = NULL;
 
 	gp_log (GP_LOG_DEBUG, "main", "Uploading file...");
 
@@ -108,7 +108,7 @@ action_camera_upload_metadata (GPParams *p, const char *folder, const char *path
 {
 	CameraFile *file;
 	int res;
-	char *fn = NULL;
+	const char *fn = NULL;
 
 	gp_log (GP_LOG_DEBUG, "main", "Uploading metadata...");
 
